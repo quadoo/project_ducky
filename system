@@ -7,6 +7,7 @@ DELAY 3000
 REM --> Minimize all windows
 GUI d
 DELAY 1000
+
 REM --> Open cmd
 GUI r
 DELAY 1000
@@ -31,5 +32,5 @@ GUI r
 STRING notepad
 ENTER
 DELAY 3000
-STRING "GOTOWE!"
+STRING "DONE!"
 ENTER
