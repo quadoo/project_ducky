@@ -1,0 +1,25 @@
+REM Title: System
+REM Author: quadoo
+REM Version: 0.21
+REM Description: generuje raport Systemu
+DELAY 3000
+
+REM ---> minimalizacja pulpitu i uruchomienie cmd
+GUI d
+DELAY 1000
+GUI r
+DELAY 1000
+STRING cmd
+ENTER
+DELAY 1000
+STRING cd %USERPROFILE%\Desktop
+ENTER
+STRING mkdir raport
+ENTER
+
+
+REM ----> wprowadzanie poleceń
+STRING get-date >>
+
+
+
